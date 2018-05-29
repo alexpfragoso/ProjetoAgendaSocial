@@ -1,15 +1,49 @@
 <ion-header>
     <ion-navbar>
-        <ion-title>Home</ion-title>
+
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Agenda Social</ion-title>
     </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-    <h2>Welcome to Ionic!</h2>
-    <p>
-        This starter project comes with simple tabs-based layout for apps that are going to primarily use a Tabbed UI.
-    </p>
-    <p>
-        Take a look at the <code>src/pages/</code> directory to add or change tabs, update any existing page or create new pages.
-    </p>
+    <ion-list>
+
+        <ion-card>
+            <img src="img/cao.png" />
+            <ion-card-content>
+                <ion-card-title>
+                    Feira de adoção de cães
+                </ion-card-title>
+                <p>
+                    Feira de Adoção de cães de São Carlos.
+                </p>
+            </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <img src="img/agasalho.png" />
+            <ion-card-content>
+                <ion-card-title>
+                    Campanha do agasalho.
+                </ion-card-title>
+                <p>
+                    Ajude quem tem frio. Campanha do agasalho de São Carlos.
+                </p>
+            </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <img src="img/sopa.png" />
+            <ion-card-content>
+                <ion-card-title>
+                    Distribuição de sopa.
+                </ion-card-title>
+                <p>
+                    Precisamos de alimentos e voluntários para a distribuição de sopa para a populçaão carente.
+                </p>
+            </ion-card-content>
+        </ion-card>
+    </ion-list>
+
 </ion-content>

@@ -7,12 +7,24 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { LoginPage } from '../pages/login/login';
+import { ProjectPage } from '../pages/project/project';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { FotosPage } from '../pages/fotos/fotos';
+import { DetailPage } from '../pages/detail/detail';
+import { ContactsPage } from '../pages/contacts/contacts';
+import { LocalizationPage } from '../pages/localization/localization';
 
 @NgModule({
   declarations: [
+    LocalizationPage,
+    ContactsPage,
+    DetailPage,
+    FotosPage,
+    ProjectPage,
+    LoginPage,
     MyApp,
     AboutPage,
     ContactPage,
@@ -25,6 +37,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
+    LocalizationPage,
+    ContactsPage,
+    DetailPage,
+    FotosPage,
+    ProjectPage,
+    LoginPage,
     MyApp,
     AboutPage,
     ContactPage,
