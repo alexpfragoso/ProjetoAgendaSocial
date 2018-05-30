@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
+import { DetailPage } from '../detail/detail';
+import { FotosPage } from '../fotos/fotos';
+import { LocalizationPage } from '../localization/localization';
+import { ContactsPage } from '../contacts/contacts';
 
 /**
  * Generated class for the ProjectPage tabs.
@@ -15,10 +19,10 @@ import { IonicPage, NavController } from 'ionic-angular';
 })
 export class ProjectPage {
 
-  detailRoot = 'DetailPage'
-  fotosRoot = 'FotosPage'
-  localizationRoot = 'LocalizationPage'
-  contactsRoot = 'ContactsPage'
+  detailRoot = DetailPage;
+  fotosRoot = FotosPage;
+  localizationRoot = LocalizationPage;
+  contactsRoot = ContactsPage;
 
 
   constructor(public navCtrl: NavController) {}

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { ProjectPage } from '../project/project';
+
 
 @Component({
   selector: 'page-home',
@@ -13,4 +15,9 @@ export class HomePage {
 
   }
 
+  goToProjectPage() {
+    // go to the HomePage component
+    this.navCtrl.push(ProjectPage);
+    console.log('chama ProjectPage');
+  }
 }
